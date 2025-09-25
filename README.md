@@ -1,26 +1,26 @@
 <div align="center">
-<img src="./Poster.jpeg" alt="Poster" />
+<img src="./Poster.jpeg" alt="Covalence Poster" />
 </div>
 
-<h1 align="center">Monorepo Setup</h1>
+<h1 align="center">Covalence</h1>
 
 <blockquote style="font-size:18px;">
-This <strong>monorepo template</strong> utilizes <strong>NX</strong> for a <strong>scalable, modular, and maintainable project structure</strong>. It separates <strong>applications</strong> from <strong>reusable libraries</strong>, <strong>promoting code sharing</strong> and <strong>consistency</strong> while ensuring <strong>efficient builds and clear project boundaries for professional, open-ended development</strong>.
+<strong>Covalence</strong> is a real-time collaborative LaTeX editor designed for academic teams. It streamlines the creation of research papers, theses, and other documents by integrating real-time syncing and video chat directly into the workspace. This powerful academic platform makes remote collaboration intuitive and efficient for students and researchers.
 </blockquote>
 
 <div align="center">
-    <img src="https://img.shields.io/github/contributors/CodeDragon03/Monorepo?style=for-the-badge&logo=github&color=green" alt="GitHub contributors" />
-    <img src="https://img.shields.io/github/forks/CodeDragon03/Monorepo?style=for-the-badge&logo=github&color=green" alt="GitHub forks" />
-    <img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues-pr/CodeDragon03/Monorepo?style=for-the-badge&logo=github&color=green">
-    <img src="https://img.shields.io/github/stars/CodeDragon03/Monorepo?style=for-the-badge&logo=github&color=green" alt="GitHub Repo stars" />
-    <img src="https://img.shields.io/github/issues/CodeDragon03/Monorepo?style=for-the-badge&logo=github&color=green" alt="GitHub Issues or Pull Requests" />
+<img src="https://img.shields.io/github/contributors/CodeDragon03/Covalence?style=for-the-badge&logo=github&color=green" alt="GitHub contributors" />
+<img src="https://img.shields.io/github/forks/CodeDragon03/Covalence?style=for-the-badge&logo=github&color=green" alt="GitHub forks" />
+<img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues-pr/CodeDragon03/Covalence?style=for-the-badge&logo=github&color=green">
+<img src="https://img.shields.io/github/stars/CodeDragon03/Covalence?style=for-the-badge&logo=github&color=green" alt="GitHub Repo stars" />
+<img src="https://img.shields.io/github/issues/CodeDragon03/Covalence?style=for-the-badge&logo=github&color=green" alt="GitHub Issues or Pull Requests" />
 </div>
 
 ## Table of Contents
 
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Contributing](#contributors)
 - [Author](#author)
 - [Appendix](#appendix)
 - [References](#references)
@@ -31,13 +31,13 @@ This <strong>monorepo template</strong> utilizes <strong>NX</strong> for a <stro
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/CodeDragon03/Monorepo.git
+    git clone https://github.com/CodeDragon03/Covalence.git
     ```
 
 2.  **Install dependencies:**
 
     ```bash
-    cd Monorepo
+    cd Covalence
 
     pnpm install
     ```
@@ -47,7 +47,7 @@ This <strong>monorepo template</strong> utilizes <strong>NX</strong> for a <stro
 Use the following command to run the application:
 
 ```bash
-turbo run dev
+nx run dev
 ```
 
 ## Contributing
@@ -60,9 +60,9 @@ We welcome contributions\! To get started, please follow these steps:
 2.  **Clone your fork**
 
     ```bash
-    git clone https://github.com/CodeDragon03/Monorepo.git
+    git clone https://github.com/CodeDragon03/Covalence.git
 
-    cd Monorepo
+    cd Covalence
     ```
 
 3.  **Create a new branch** Use a descriptive branch name for your feature or
@@ -101,18 +101,18 @@ We welcome contributions\! To get started, please follow these steps:
 
 ### Contributors
 
-Thanks to all the people who have contributed to this project!
+Thanks to all the people who have contributed to this project\!
 
 <div align="start">
-    <a href="https://github.com/CodeDragon03/Monorepo/graphs/contributors">
-        <img src="https://contrib.rocks/image?repo=CodeDragon03/Monorepo"/>
-    </a>
+<a href="https://github.com/CodeDragon03/Monorepo/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=CodeDragon03/Monorepo"/>
+</a>
 </div>
 
 ## Issues
 
 If you encounter any issues, please open an issue in the
-[Issues](https://github.com/CodeDragon03/Monorepo/issues) section.
+[Issues](https://github.com/CodeDragon03/Covalence/issues) section.
 
 ### Issue Guidelines
 
@@ -124,20 +124,32 @@ If you encounter any issues, please open an issue in the
 
 ## Author
 
-      Jay Yadav @CodeDragon03
+```
+  Jay Yadav @CodeDragon03
+```
 
 ## Appendix
 
-### What is a Monorepo?
+### What is Covalence?
 
 <blockquote style="font-size:18px;">
-A monorepo, short for "monolithic repository," is a single version-controlled repository that holds the code for many distinct projects. Instead of having separate repositories for each project, a monorepo centralizes all of the codebase in one location.
+<strong>Covalence</strong> is a real-time collaborative LaTeX editor built to transform academic teamwork. It integrates live syncing and video chat, allowing multiple users to work on the same document simultaneously, see changes instantly, and communicate effectively without leaving the platform.
 </blockquote>
 
-### Why use Monorepo (Turborepo or NX)?
+### Key Features
 
 <blockquote style="font-size:18px;">
-In a monorepo, a developer can streamline a codebase, unifying front-end, back-end, and UI libraries into a single repository. This can accelerate build times and cut down on development overhead. The centralized nature of a monorepo can also improve developer velocity. For instance, one project used a monorepo to accelerate build times by 30% , and another cut development overhead by 25%.
+    <ul>
+        <li>
+        <strong>Real-Time Collaboration:</strong> Co-author LaTeX documents with live syncing, similar to Google Docs.
+        </li>
+        <li><strong>Integrated Video Chat:</strong> Discuss and plan your work with your team directly within the editor.
+        </li>
+        <li><strong>Complete Academic Workspace:</strong> Centralize all your academic projects, from research papers to theses.
+        </li>
+        <li><strong>Intuitive Interface:</strong> A clean, simple design focused on improving productivity and reducing friction.
+        </li>
+    </ul>
 </blockquote>
 
 ## References
@@ -151,4 +163,4 @@ In a monorepo, a developer can streamline a codebase, unifying front-end, back-e
 ## License
 
 This project is licensed under the
-[MIT License](https://www.google.com/search?q=LICENSE).
+[MIT License](./LICENSE).
