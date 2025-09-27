@@ -130,35 +130,7 @@ If you encounter any issues, please open an issue in the
 
 ## Appendix
 
-### What is Covalence?
-
-<blockquote style="font-size:18px;">
-<strong>Covalence</strong> is a real-time collaborative LaTeX editor built to transform academic teamwork. It integrates live syncing and video chat, allowing multiple users to work on the same document simultaneously, see changes instantly, and communicate effectively without leaving the platform.
-</blockquote>
-
-### Key Features
-
-<blockquote style="font-size:18px;">
-    <ul>
-        <li>
-        <strong>Real-Time Collaboration:</strong> Co-author LaTeX documents with live syncing, similar to Google Docs.
-        </li>
-        <li><strong>Integrated Video Chat:</strong> Discuss and plan your work with your team directly within the editor.
-        </li>
-        <li><strong>Complete Academic Workspace:</strong> Centralize all your academic projects, from research papers to theses.
-        </li>
-        <li><strong>Intuitive Interface:</strong> A clean, simple design focused on improving productivity and reducing friction.
-        </li>
-    </ul>
-</blockquote>
-
 ## References
-
-- [NX Setup](https://nx.dev/getting-started/intro)
-- [Typescript Configuration](https://www.typescriptlang.org/tsconfig/)
-- [Eslint Configuration](https://eslint.org/docs/latest/use/configure/)
-- [Prettier Configuration](https://prettier.io/docs/configuration)
-- [Setup Guide](https://javascript.plainenglish.io/sharing-typescript-with-nx-and-turborepo-part-3-configuring-a-monorepo-2e4608701964#7ab8)
 
 ## License
 
