@@ -1,6 +1,6 @@
 {
     "extends": "@monorepo/typescript-config/config/web.config.json",
     "compilerOptions": {
-        "moduleResolution": "bundler"
+        "moduleResolution": "nodenext"
     }
 }

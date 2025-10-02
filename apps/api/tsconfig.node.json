@@ -1,7 +1,6 @@
 {
     "extends": "@monorepo/typescript-config/config/api.config.json",
     "compilerOptions": {
-        "moduleResolution": "bundler"
-    },
-    "include": ["vite.config.ts"]
+        "moduleResolution": "nodenext"
+    }
 }

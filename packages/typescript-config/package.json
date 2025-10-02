@@ -1,0 +1,14 @@
+{
+    "name": "@monorepo/typescript-config",
+    "private": true,
+    "type": "module",
+    "version": "1.0.0",
+    "files": [
+        "web.config.json",
+        "api.config.json"
+    ],
+    "devDependencies": {},
+    "publishConfig": {
+        "access": "public"
+    }
+}

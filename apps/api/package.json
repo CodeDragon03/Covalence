@@ -1,0 +1,19 @@
+{
+    "name": "api",
+    "private": true,
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "build": "tsc",
+        "type:checks": "tsc --noEmit",
+        "start": "nodemon src/index.ts",
+        "clean": "pnpm clean",
+        "lint": "eslint .",
+        "test": "vitest"
+    },
+    "devDependencies": {
+        "@monorepo/eslint-config": "workspace:*",
+        "@monorepo/typescript-config": "workspace:*",
+        "typescript": "^5.9.3"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "web",
+    "private": true,
+    "version": "1.0.0",
+    "main": "index.html",
+    "scripts": {
+        "build": "tsc && vite build",
+        "dev": "vite",
+        "type:checks": "tsc --noEmit",
+        "clean": "pnpm clean",
+        "lint": "eslint .",
+        "test": "vitest"
+    },
+    "devDependencies": {
+        "@monorepo/eslint-config": "workspace:*",
+        "@monorepo/typescript-config": "workspace:*",
+        "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "@monorepo/ui": "workspace:*",
+        "vite": "^7.1.8"
+    }
+}
