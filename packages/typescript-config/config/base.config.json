@@ -6,6 +6,7 @@
         "skipLibCheck": true,
 
         "allowImportingTsExtensions": true,
+        "allowSyntheticDefaultImports": true,
         "verbatimModuleSyntax": true,
         "moduleDetection": "force",
         "noEmit": true,
@@ -18,5 +19,5 @@
         "noUncheckedSideEffectImports": true
     },
     "include": ["src"],
-    "exclude": ["node_modules"]
+    "exclude": ["node_modules", "**/*.svg", "**/*.css"]
 }
