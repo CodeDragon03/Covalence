@@ -47,7 +47,7 @@
 Use the following command to run the application:
 
 ```bash
-nx run dev
+turbo run dev
 ```
 
 ## Contributing
