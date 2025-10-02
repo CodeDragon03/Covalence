@@ -5,7 +5,7 @@
 <h1 align="center">Covalence</h1>
 
 <blockquote style="font-size:18px;">
-<strong>Covalence</strong> is a real-time collaborative LaTeX editor designed for academic teams. It streamlines the creation of research papers, theses, and other documents by integrating real-time syncing and video chat directly into the workspace. This powerful academic platform makes remote collaboration intuitive and efficient for students and researchers.
+<strong>Covalence</strong> is a real-time collaborative LaTeX editor designed for academic teams. It streamlines the creation of research papers, theses, and other documents by integrating real-time syncing and video chat directly into the workspace. This powerful academic platform makes remote collaboration intuitive and efficient for students and researchers. Please check the issues page for more info on coming fetures. 
 </blockquote>
 
 <div align="center">
@@ -25,6 +25,7 @@
 - [Appendix](#appendix)
 - [References](#references)
 - [License](#license)
+- [Issues](https://github.com/CodeDragon03/Covalence/issues)
 
 ## Getting Started
 
