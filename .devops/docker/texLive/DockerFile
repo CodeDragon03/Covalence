@@ -1,5 +1,0 @@
-#  Using official TeX Live image as our base
-FROM texlive/texlive-small
-
-# Set the command to run when the container starts
-CMD []
