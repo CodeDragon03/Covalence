@@ -1,0 +1,16 @@
+node_modules
+
+
+.turbo
+
+
+.husky
+
+
+.git
+
+
+.daigrams
+
+
+.env

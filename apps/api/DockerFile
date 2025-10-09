@@ -1,0 +1,12 @@
+FROM node:22--alpha AS build
+
+WORKDIR D:\Covalence\apps\api\src
+
+COPY . .
+
+RUN pnpm i
+
+CMD [ "build" ]
+
+EXPOSE 3000
+
